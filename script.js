@@ -183,6 +183,8 @@ class Controller {
     // 1. Get the input data
     const input = this.view.getInput();
 
+    if (input.text === '' || input.startDate === '' || input.endDate === '') return;
+
     // 2. Add the goal to the model
     this.model.addGoal(input);
 
@@ -231,9 +233,9 @@ class Controller {
 
   setupEventListeners() {
     this.view.inputForm.addEventListener('submit', (e) => this.ctrlAddGoal(e));
-    // document.addEventListener('keydown', (e) => {
-    //   if (e.keyCode === 13) this.ctrlAddGoal(e);
-    // });
+    document.addEventListener('keydown', (e) => {
+      if (e.keyCode === 13) this.ctrlAddGoal(e);
+    });
     this.view.goalsList.addEventListener('click', (e) => {
       if (e.target.className === 'ion-ios-close-outline') {
         this.ctrlDeleteGoal(e);
