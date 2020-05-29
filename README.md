@@ -2,6 +2,8 @@
 
 A simple application that helps you keep track of and manage your goals.
 
+View this project at https://anthonyyoo24.github.io/goaltracker/
+
 ## Features
 
 - You can enter a goal along with a corresponding date range for when you want to start the goal and when you want to complete it by.
