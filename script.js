@@ -16,6 +16,8 @@ class Model {
       endDate: input.endDate,
     };
 
+    if (Date.parse(goal.startDate) > Date.parse(goal.endDate)) return;
+
     this.goals.push(goal);
 
     localStorage.setItem('goals', JSON.stringify(this.goals));
