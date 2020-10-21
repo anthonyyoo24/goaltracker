@@ -26,6 +26,4 @@ I built this to help me be more productive but hopefully it can do the same for 
 
 ## Contact
 
-- Twitter: @anthonieyoo
-- Github: https://github.com/anthonyyoo24
 - Email: anthony_yoo_24@hotmail.com
