@@ -42,7 +42,7 @@ h1 {
   box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.15);
   color: #222222;
   margin-bottom: 1.4rem;
-  transition: box-shadow 0.5s ease-in-out;
+  /* transition: box-shadow 0.5s ease-in-out; */
 
   display: grid;
   grid-auto-flow: column;
@@ -51,9 +51,9 @@ h1 {
   align-items: center;
 }
 
-.input:hover {
+/* .input:hover {
   box-shadow: 0 1.2rem 1.8rem -0.6rem rgba(0, 0, 0, 0.6);
-}
+} */
 
 input {
   border: none;
