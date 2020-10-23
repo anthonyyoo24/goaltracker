@@ -2,7 +2,7 @@
 
 A simple application that helps you keep track of and manage your goals.
 
-View this project at https://anthonyyoo24.github.io/goaltracker/
+View the live demo at https://anthonyyoo24.github.io/goaltracker/
 
 ## Features
 
