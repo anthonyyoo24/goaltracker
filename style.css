@@ -134,12 +134,12 @@ input[type='date'] {
   box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.15);
 
   font-size: 1.6rem;
-  transition: box-shadow 0.5s ease-in-out;
+  /* transition: box-shadow 0.5s ease-in-out; */
 }
 
-.goal:hover {
+/* .goal:hover {
   box-shadow: 0 1.2rem 1.8rem -0.6rem rgba(0, 0, 0, 0.6);
-}
+} */
 
 .goal__top {
   display: grid;
